@@ -26,7 +26,7 @@ class ModelHistory extends Eloquent
     slef::saving(function ($a)
     {
       // For Sentinel Authentication use
-      $a->user_id  = Sentinel::check() ? Sentinel::getUser()->id : null;
+      // $a->user_id  = Sentinel::check() ? Sentinel::getUser()->id : null;
 
       // For laravel built in authentication use below
       $a->user_id  = Auth::check() ? Auth::id() : null;

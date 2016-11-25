@@ -6,6 +6,9 @@ use Illuminate\Support\ServiceProvider;
 
 class ModelHistoryServiceProvider extends ServiceProvider
 {
+
+    protected $defer = false;
+
     /**
      * Bootstrap the application services.
      *
