@@ -23,7 +23,7 @@ class ModelHistory extends Eloquent
   {
     parent::boot();
 
-    slef::saving(function ($a)
+    static::saving(function ($a)
     {
       // For Sentinel Authentication use
       // $a->user_id  = Sentinel::check() ? Sentinel::getUser()->id : null;
