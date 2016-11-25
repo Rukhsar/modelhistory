@@ -1,0 +1,15 @@
+{
+    "name": "rukhsar/modelhistory",
+    "description": "Provides tracking of Laravel Models for creating, updating and deleting events",
+    "license": "MIT",
+    "authors": [{"name": "Rukhsar Manzoor", "email": "rukhsar.man@gmail.com"}],
+    "require": {
+        "php": ">=5.4.0",
+        "laravel/framework": "5.2"
+    },
+      "autoload": {
+      "psr-4": {
+          "Rukhsar\\": "src"
+        }
+    }
+  }
