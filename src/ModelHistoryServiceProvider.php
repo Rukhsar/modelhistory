@@ -1,6 +1,6 @@
 <?php
 
-namespace Rukhsar\ModelHistory;
+namespace Rukhsar;
 
 use Illuminate\Support\ServiceProvider;
 
